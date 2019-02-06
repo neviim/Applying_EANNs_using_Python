@@ -5,7 +5,7 @@ There is brief presentation on the Youtube. !!!link do youtube'a!!!
 It is highly recommended to watch this before further reading.
 
 
-!!!DEMO!!!
+![](Images/demo.gif)
 
 
 ## The Simulation
