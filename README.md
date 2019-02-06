@@ -16,7 +16,7 @@ Cars have to navigate through a course without touching the walls or any other o
 !!!CAR!!!
 
 
-If you would like to tinker with the parameters of the simulation, you can do so in the !!!SETTINGS!!! module. If you would simply like to run the simulation with default parameters, you can run [Applying_EANNs_using_Python/Scripts/](Applying_EANNs_using_Python/Scripts/perform_experiments.py) script. To show the results you can run !!!show_single_album!!! script.
+If you would like to tinker with the parameters of the simulation, you can do so in the !!!SETTINGS!!! module. If you would simply like to run the simulation with default parameters, you can run [Scripts/](Scripts/perform_experiments.py) script. To show the results you can run !!!show_single_album!!! script.
 
 ## Simulation environment.
 !!!
