@@ -42,7 +42,7 @@ The entire code related with algorithm can be found at !!!algorytm genetyczny!!!
 
 ## User Interface
 
-User interface uses pygame!!!link!!! library. 
+User interface uses [pygame](https://github.com/pygame/) library. 
 In the upper right corner a generation counter is displayed.
 The entire UI-code is located at !!!GUI!!!.
 
