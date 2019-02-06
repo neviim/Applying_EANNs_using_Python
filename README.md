@@ -25,17 +25,19 @@ If you would like to tinker with the parameters of the simulation, you can do so
 ## The Neural Network
 
 The Neural Network used is a standard, fully connected, feedforward Neural Network. It comprises 4 layers: an input layer with 3 neurons, two hidden layers with 4 and 3 neurons respectively and an output layer with 3 neurons.
+The core of neural network is model adopted from KERAS!!!link!!! library
 The code for the Neural Network can be found at !!!NEURAL NETWORKS!!!
 
 
 ## Training the Neural Network
 
-The weights of the Neural Network are trained using an Evolutionary Algorithm.
+The weights of the Neural Network are trained using an Evolutionary Algorithm known as the Genetic Algorithm.
 
 At first there are N randomly initialised cars spawned. The best cars are then selected to be recombined with each other, creating new "offspring" cars. These offspring cars then form a new population of N cars and are 
 also slightly mutated in order to inject some more diversity into the population. The newly created population of cars then tries to navigate the course again and the process of evaluation, selection, recombination and mutation starts again. One complete cycle from the evaluation of one population to the evaluation of the next is called a generation.
 
-The generic version of a Genetic Algorithm can be found at !!!algorytm genetyczny!!!. The operation of this class can be modified  by changing parameters in !!!SETTINGS!!! module. Methods are also considered as parameters. You can choose method from DEAP!!!link!!! library (by default) or create your own.
+Methods listed above (evaluation, selection and recombination) are adopted from DEAP!!!link!!!. The same with tools necessary to build data structures used in algorithm.
+The entire code related with algorithm can be found at !!!algorytm genetyczny!!!. The operation of this class can be modified  by changing parameters in !!!SETTINGS!!! module (methods are also considered as parameters). You can choose method from DEAP library (by default) or create your own.
 
 
 ## User Interface
