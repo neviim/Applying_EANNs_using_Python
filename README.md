@@ -16,7 +16,12 @@ Cars have to navigate through a course without touching the walls or any other o
 <img src="Images/car.png" width="250">
 
 
-The main difficulty of all project was to build simulation environment. The first idea was to use [pygame](https://github.com/pygame/) library. Unfortunately, during the implementation it turned out that this library is not sufficient for this purpose. Consequently I wrote my own geometry library, which use pygame in a few places.
+The main difficulty of all project was to build simulation environment. The first idea was to use [pygame](https://github.com/pygame/) library. Unfortunately, during the implementation it turned out that this library is not sufficient for this purpose. Consequently I wrote my own geometry library, which use pygame in a few places. Newly implemented properties that we can use from now on are:
+- findind collision between rotated rectangles (pygame allows only non-rotatable rectangles to do that action)
+- finding projection of ray on other objects.
+These issues are better explained in video, whose link is at the beginning of this article.
+You can check code of mentioned library by reading "geometry.py" file located at [Modules/Simulation/](Modules/Simulation/)
+There are also modules which contains classes necessary to build objects, which together create the environment (cars and map).
 
 
 ## The Neural Network
