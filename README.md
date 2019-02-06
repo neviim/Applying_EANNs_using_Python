@@ -57,4 +57,4 @@ If you would like to tinker with the parameters of the simulation, you can do so
 
 ## License
 
-Feel free to use my code in your personal projects. I would be very interested in any work that originates from this project. I would be more than happy to hear from your impressions and results, so feel free to mail me at pawel.brysch@gmail.com
+Feel free to use my code in your personal projects. I would be very interested in any work that originates from this project. I would be more than happy to hear from your impressions and results, so feel free to mail me at pawel.brysch@gmail.com .
