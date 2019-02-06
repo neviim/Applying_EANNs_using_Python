@@ -16,10 +16,8 @@ Cars have to navigate through a course without touching the walls or any other o
 <img src="Images/car.png" width="250">
 
 
-If you would like to tinker with the parameters of the simulation, you can do so in the [Modules/Settings/settings.py](Modules/Settings/settings.py) module. If you would simply like to run the simulation with default parameters, you can run [Scripts/perform_experiments.py](Scripts/perform_experiments.py) script. To show the results you can run [Scripts/show_single_album.py](Scripts/show_single_album.py) script.
-
 ## Simulation environment.
-!!!
+The main difficulty of all project was to build simulation environment. The first idea was to use [pygame](https://github.com/pygame/) library. Unfortunately, during the implementation it turned out that this library is not sufficient for this purpose. Consequently I wrote my own geometry library, which use pygame in a few places.
 
 
 ## The Neural Network
@@ -42,10 +40,13 @@ The entire code related with algorithm can be found at [Modules/AI/Genetics/](Mo
 
 ## User Interface
 
-User interface uses [pygame](https://github.com/pygame/) library. 
+User interface uses pygame library. 
 In the upper right corner a generation counter is displayed.
 The entire UI-code is located at [Modules/GUI/](Modules/GUI/).
 
+## How to use
+
+If you would like to tinker with the parameters of the simulation, you can do so in the [Modules/Settings/settings.py](Modules/Settings/settings.py) module. If you would simply like to run the simulation with default parameters, you can run [Scripts/perform_experiments.py](Scripts/perform_experiments.py) script. To show the results you can run [Scripts/show_single_album.py](Scripts/show_single_album.py) script.
 
 ## License
 
