@@ -29,7 +29,7 @@ There are also modules which contains classes necessary to build objects, which 
 
 The Neural Network used is a standard, fully connected, feedforward Neural Network. It comprises 4 layers: an input layer with 3 neurons, two hidden layers with 4 and 3 neurons respectively and an output layer with 3 neurons.
 The core of neural network is model adopted from [Keras](https://github.com/keras-team/keras) library
-The code for the Neural Network can be found at [Modules/AI/NeuralNetworks/](Modules/AI/NeuralNetworks/)
+The code for the Neural Network can be found at [Modules/AI/NeuralNetworks/](Modules/AI/NeuralNetworks/).
 
 
 ## Training the Neural Network
@@ -40,7 +40,7 @@ At first there are N randomly initialised cars spawned. The best cars are then s
 also slightly mutated in order to inject some more diversity into the population. The newly created population of cars then tries to navigate the course again and the process of evaluation, selection, recombination and mutation starts again. One complete cycle from the evaluation of one population to the evaluation of the next is called a generation.
 
 Methods listed above (evaluation, selection and recombination) are adopted from [DEAP](https://github.com/DEAP). The same with tools necessary to build data structures used in algorithm.
-The entire code related with algorithm can be found at [Modules/AI/Genetics/](Modules/AI/Genetics/). The operation of this class can be modified  by changing parameters in [Modules/Settings/settings.pyModules/Settings/settings.py](Modules/Settings/settings.py) module (methods are also considered as parameters). You can choose method from DEAP library (by default) or create your own.
+The entire code related with algorithm can be found at [Modules/AI/Genetics/](Modules/AI/Genetics/). The operation of this class can be modified  by changing parameters in the "settings.py" module located at [Modules/Settings/](Modules/Settings/) (methods are also considered as parameters). You can choose method from DEAP library (by default) or create your own.
 
 
 ## User Interface
@@ -52,7 +52,7 @@ The entire UI-code is located at [Modules/GUI/](Modules/GUI/).
 
 ## How to use
 
-If you would like to tinker with the parameters of the simulation, you can do so in the [Modules/Settings/settings.py](Modules/Settings/settings.py) module. If you would simply like to run the simulation with default parameters, you can run [Scripts/perform_experiments.py](Scripts/perform_experiments.py) script. To show the results you can run [Scripts/show_single_album.py](Scripts/show_single_album.py) script.
+If you would like to tinker with the parameters of the simulation, you can do so in the "settings.py" module located at [Modules/Settings/](Modules/Settings/). If you would simply like to run the simulation with default parameters, you can run [Scripts/perform_experiments.py](Scripts/perform_experiments.py) script. To show the results you can run [Scripts/show_single_album.py](Scripts/show_single_album.py) script.
 
 
 ## License
