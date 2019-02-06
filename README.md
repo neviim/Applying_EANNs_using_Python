@@ -16,7 +16,7 @@ Cars have to navigate through a course without touching the walls or any other o
 !!!CAR!!!
 
 
-If you would like to tinker with the parameters of the simulation, you can do so in the [Modules/Settings/settings.pyModules/Settings/settings.py](Modules/Settings/settings.py) module. If you would simply like to run the simulation with default parameters, you can run [Scripts/perform_experiments.py](Scripts/perform_experiments.py) script. To show the results you can run [Scripts/show_single_album.py](Scripts/show_single_album.py) script.
+If you would like to tinker with the parameters of the simulation, you can do so in the [Modules/Settings/settings.py](Modules/Settings/settings.py) module. If you would simply like to run the simulation with default parameters, you can run [Scripts/perform_experiments.py](Scripts/perform_experiments.py) script. To show the results you can run [Scripts/show_single_album.py](Scripts/show_single_album.py) script.
 
 ## Simulation environment.
 !!!
@@ -44,7 +44,7 @@ The entire code related with algorithm can be found at [Modules/AI/Genetics/](Mo
 
 User interface uses [pygame](https://github.com/pygame/) library. 
 In the upper right corner a generation counter is displayed.
-The entire UI-code is located at !!!GUI!!!.
+The entire UI-code is located at [Modules/GUI/](Modules/GUI/).
 
 
 ## License
