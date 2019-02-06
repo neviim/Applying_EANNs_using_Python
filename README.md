@@ -8,7 +8,6 @@ It is highly recommended to watch this before further reading.
 ![](Images/demo.gif)
 
 
-## The Simulation
 
 Cars have to navigate through a course without touching the walls or any other obstacles of the course. A car has three front-facing sensors which measure the distance to obstacles in a given direction. The readings of these sensors serve as the input of the car's neural network. Each sensor points into a different direction, covering a front facing range of approximately 70 degrees. The output of the Neural Network then determines the car’s current turning force.
 
