@@ -52,7 +52,7 @@ The entire UI-code is located at [Modules/GUI/](Modules/GUI/).
 
 ## How to use
 
-If you would like to tinker with the parameters of the simulation, you can do so in the "settings.py" module located at [Modules/Settings/](Modules/Settings/). If you would simply like to run the simulation, you can run "perform_experiments.py"  script. To show the results you can run "show_single_album.py" script. Both of them are located at [Scripts/](Scripts/). Their documentations contain instructions how to use them.
+If you would like to tinker with the parameters of the simulation, you can do so in the "settings.py" module located at [Modules/Settings/](Modules/Settings/). If you would simply like to run the simulation, you can run "perform_experiments.py"  script. To show the results you can run "show_single_album.py" script. Both of them are located at [Scripts/](Scripts/). Their documentations contain instructions how to modify them.
 
 
 ## License
