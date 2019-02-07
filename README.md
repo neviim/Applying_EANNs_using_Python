@@ -16,19 +16,19 @@ Cars have to navigate through a course without touching the walls or any other o
 <img src="Images/car.png" width="250">
 
 
-The main difficulty of all project was to build simulation environment. The first idea was to use [pygame](https://github.com/pygame/) library. Unfortunately, during the implementation it turned out that this library is not sufficient for this purpose. Consequently I wrote my own geometry library, which use pygame in a few places. Newly implemented properties that we can use from now on are:
+The main difficulty of all project was to build simulation environment. The first idea was to use [pygame](https://github.com/pygame/) library. Unfortunately, during the implementation it turned out that this library is not sufficient for this purpose. Consequently I wrote my own geometry library, which uses pygame in a few places. Newly implemented functions that we can use from now on are:
 - findind collision between rotated rectangles (pygame allows only non-rotatable rectangles to do that action)
-- finding projection of ray on other objects.
+- finding projection of a ray on other objects.
 
 These issues are better explained in video, whose link is at the beginning of this article.
 You can check code of mentioned library by reading "geometry.py" file located at [Modules/Simulation/](Modules/Simulation/)
-There are also modules which contains classes necessary to build objects, which together create the environment (cars and map).
+There are also modules which contain classes necessary to build objects, which together create the environment (cars and map).
 
 
 ## The Neural Network
 
 The Neural Network used is a standard, fully connected, feedforward Neural Network. It comprises 4 layers: an input layer with 3 neurons, two hidden layers with 4 and 3 neurons respectively and an output layer with 3 neurons.
-The core of neural network is model adopted from [Keras](https://github.com/keras-team/keras) library
+The core of neural network is model adopted from [Keras](https://github.com/keras-team/keras) library.
 The code for the Neural Network can be found at [Modules/AI/NeuralNetworks/](Modules/AI/NeuralNetworks/).
 
 
