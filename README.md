@@ -21,7 +21,7 @@ The main difficulty of all project was to build simulation environment. The firs
 - finding projection of a ray on other objects.
 
 These issues are better explained in video, whose link is at the beginning of this article.
-You can check code of mentioned library by reading "geometry.py" file located at [Modules/Simulation/](Modules/Simulation/)
+You can check code of mentioned library by reading "geometry.py" file located at [Modules/Simulation/](Modules/Simulation/).
 There are also modules which contain classes necessary to build objects, which together create the environment (cars and map).
 
 
